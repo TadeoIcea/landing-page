@@ -1,0 +1,1 @@
+This project is to see how its my skills i develope in the section flexbox of the Odin Project
