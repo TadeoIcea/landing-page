@@ -4,19 +4,32 @@ body{
     font-family: Roboto, sans-serif;
     background-color:#1F2937 ;
     color:white;
-    height: 100vh;
     margin: 0;
-    overflow: hidden;
+    flex: 1;
+}
+
+button{
+    background-color: #3882f6;
+    padding: 8px;
+    border-radius: 8px;
+    width: 100px;
+    flex: 1 0 auto;
+    color: white;
+    border:transparent;
+
 }
 .header{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap:360px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    
 }
 ul {
   list-style-type: none;
   display: flex;
-  gap: 10px;
   margin:0px;
   padding: 0px;
   gap:15px;
@@ -37,19 +50,142 @@ ul {
 }
 .first {
     display: flex;
-    flex:1;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
+    gap: 80px;
+}
+.info1{
+    display: flex;
+    flex-direction: column;
+    font-weight: extra-bold;
+    color:#F9FAF8;
+    width: 400px;
+    gap: 8px;
+    margin-right: 30px;
+    padding: 30px;
+}
+
+.info11{
+    display: flex;
+    font-size: 48px;
+    width: 400px;
+}
+
+.info2{
+    display: flex;
+    background-color: rgb(175, 173, 190);
+    width: 400px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+
 }
 .second{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     flex:1;
+    background-color: #F9FAF8;
+    padding:20px;
+    gap: 20px;
 }
+img{
+    border-radius: 15px;
+    border: solid 5px;
+    border-color: #3882f6;
+
+}
+.info3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+    color:#1f2937;
+    padding: 10px;
+}
+.info4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:30px;
+    color: black;
+}
+
+.par{
+    max-width: 150px;
+
+}
+
 .third{
     display: flex;
     flex:1;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.info5{
+    width: 800px;
+    padding: 100px;
+    font-size: 36px;
+    font-weight: italic;
+    color:#1f2937;
+}
+
+.signature{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-weight: bold;
 }
 .fourth{
     display: flex;
     flex:1;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
 }
+
+.info6{
+    flex-direction: row;
+    display: flex;
+    background-color: #3882f6;
+    padding: 50px;
+    border-radius: 10px;
+    width: 800px;
+    margin: 80px;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.lols{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+
+}
+.lol1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.info6 .button{
+    border:2px solid;
+    max-width: 100px;
+    margin: 10px;
+    
+
+}
+.footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
